@@ -11,7 +11,7 @@
     font-weight: 300;
     font-size: 48px;
     line-height: 65px;
-    letter-spacing: o.1em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     text-align: center;
     color: #fff;
@@ -24,10 +24,6 @@
     height: 550px;
     margin-left: auto;
     overflow: auto;
-
-    &.projects__lsit::-webkit-scrollbar {
-        display: none;
-    }
 }
 
 .projects__item {
@@ -104,9 +100,9 @@
 
         &:hover {
             cursor: pointer;
-        //    box-shadow: 1px 5px 15px -21px #D1A954;
-           box-shadow: 3px 31px 59px 21px rgba(1,0,0,0.1);
-           transform: scale(1.05);
+            //    box-shadow: 1px 5px 15px -21px #D1A954;
+            box-shadow: 3px 31px 59px 21px rgba(1, 0, 0, 0.1);
+            transform: scale(1.05);
         }
     }
 }

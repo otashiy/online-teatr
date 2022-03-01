@@ -420,7 +420,7 @@ ol {
   font-weight: 300;
   font-size: 48px;
   line-height: 65px;
-  letter-spacing: o 0.1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: center;
   color: #fff;
@@ -435,10 +435,6 @@ ol {
   height: 550px;
   margin-left: auto;
   overflow: auto;
-}
-
-.projects__list.projects__lsit::-webkit-scrollbar {
-  display: none;
 }
 
 .projects__item {
