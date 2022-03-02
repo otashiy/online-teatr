@@ -1,0 +1,125 @@
+.intro__container {
+    display: flex;
+    background-image: url(../../img/introbcg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 0;
+    max-width: 1920px;
+}
+
+.intro__header-unit {
+    background: rgba(51, 51, 51, 0.75);
+    position: relative;
+    width: 90px;
+    height: 1045px;
+
+    &::after {
+        width: 80px;
+        height: 3px;
+        transform: rotate(90deg);
+        content: "";
+        background-color: #fff;
+        position: absolute;
+        top: 670px;
+        left: 0px;
+    }
+}
+
+.intro__contact-link {
+    position: absolute;
+    width: 299px;
+    height: 25px;
+    left: -110px;
+    top: 420px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    transform: rotate(-90deg);
+
+    &:hover {
+        color: #D1A954;
+    }
+}
+
+.intro__adversiting-unit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro__img {
+    margin-bottom: 100px;
+}
+
+.intro__list {
+    list-style: none;
+    position: absolute;
+    height: 174px;
+    left: 29px;
+    top: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    vertical-align: baseline;
+}
+
+.intro__item-link {
+    color: #FFFFFF;
+
+    &:hover {
+        color: #D1A954;
+    }
+}
+
+.intro__text-unit {
+    width: 635px;
+    margin-bottom: 230px;
+    margin-right: 60px;
+    margin-left: 105px;
+}
+
+.intro__big-text {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 87px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.intro__small-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 69px;
+}
+
+.intro__link {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 20px 47px;
+    background-color: #D1A954;
+
+    &:hover {
+        background-color: #fff;
+        color: #000;
+    }
+}
