@@ -420,48 +420,146 @@ p {
   padding: 0 15px;
 }
 
-.partners {
-  padding-top: 150px;
-  padding-bottom: 120px;
-  overflow: hidden;
-}
-
-.partners__title {
-  margin-left: 338px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 65px;
-  font-family: "Open sans", "Aria," sans-serif;
-  font-weight: 300;
-  font-size: 48px;
-  line-height: 65px;
-  color: #fff;
-}
-
-.partners__list {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
+.intro__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  background-image: url(../../img/introbcg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 0;
+  max-width: 1920px;
 }
 
-.partners__item {
-  margin-right: 78px;
-  margin-top: 80px;
+.intro__header-unit {
+  background: rgba(51, 51, 51, 0.75);
+  position: relative;
+  width: 90px;
+  height: 1045px;
 }
 
-.partners__item:nth-child(4n) {
-  margin: 0px;
-  margin-top: 80px;
+.intro__header-unit::after {
+  width: 80px;
+  height: 3px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  top: 670px;
+  left: 0px;
 }
 
-.partners__span {
-  color: #d1a954;
+.intro__contact-link {
+  position: absolute;
+  width: 299px;
+  height: 25px;
+  left: -110px;
+  top: 420px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #C4C4C4;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.intro__contact-link:hover {
+  color: #D1A954;
+}
+
+.intro__adversiting-unit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.intro__img {
+  margin-bottom: 100px;
+}
+
+.intro__list {
+  list-style: none;
+  position: absolute;
+  height: 174px;
+  left: 29px;
+  top: 760px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  vertical-align: baseline;
+}
+
+.intro__item-link {
+  color: #FFFFFF;
+}
+
+.intro__item-link:hover {
+  color: #D1A954;
+}
+
+.intro__text-unit {
+  width: 635px;
+  margin-bottom: 230px;
+  margin-right: 60px;
+  margin-left: 105px;
+}
+
+.intro__big-text {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 87px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.intro__small-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-top: 50px;
+  margin-bottom: 69px;
+}
+
+.intro__link {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 20px 47px;
+  background-color: #D1A954;
+}
+
+.intro__link:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .projects {
@@ -691,5 +789,49 @@ p {
 
 .about__img {
   display: block;
+}
+
+.partners {
+  padding-top: 150px;
+  padding-bottom: 120px;
+  overflow: hidden;
+}
+
+.partners__title {
+  margin-left: 338px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 65px;
+  font-family: "Open sans", "Aria," sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  color: #fff;
+}
+
+.partners__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.partners__item {
+  margin-right: 78px;
+  margin-top: 80px;
+}
+
+.partners__item:nth-child(4n) {
+  margin: 0px;
+  margin-top: 80px;
+}
+
+.partners__span {
+  color: #d1a954;
 }
 /*# sourceMappingURL=main.css.map */
