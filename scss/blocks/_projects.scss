@@ -1,9 +1,10 @@
 .projects {
     margin-top: 150px;
 }
-
 .projects__container {
+    max-width: 1800px;
     overflow: hidden;
+    margin-left: auto;
 }
 
 .projects__title {
@@ -105,4 +106,7 @@
             transform: scale(1.05);
         }
     }
+}
+.projects__inner {
+    color: $accent-color;
 }
