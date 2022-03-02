@@ -409,10 +409,12 @@ ol {
 
 .projects {
   margin-top: 150px;
+  margin-bottom: 150px;
+  position: relative;
 }
 
-.projects__container {
-  overflow: hidden;
+::-webkit-scrollbar {
+  display: none;
 }
 
 .projects__title {
@@ -427,14 +429,17 @@ ol {
   margin-bottom: 100px;
 }
 
+.projects__title span {
+  color: #D1A954;
+}
+
 .projects__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   max-width: 1770px;
-  height: 550px;
   margin-left: auto;
-  overflow: auto;
+  overflow-x: scroll;
 }
 
 .projects__item {
@@ -452,7 +457,7 @@ ol {
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
-  position: absolute;
+  position: inherit;
   z-index: 2;
 }
 
@@ -521,7 +526,7 @@ ol {
   cursor: pointer;
   -webkit-box-shadow: 3px 31px 59px 21px rgba(1, 0, 0, 0.1);
           box-shadow: 3px 31px 59px 21px rgba(1, 0, 0, 0.1);
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 /*# sourceMappingURL=main.css.map */

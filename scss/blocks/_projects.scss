@@ -1,9 +1,11 @@
 .projects {
     margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
 }
 
-.projects__container {
-    overflow: hidden;
+::-webkit-scrollbar {
+    display: none;
 }
 
 .projects__title {
@@ -16,14 +18,17 @@
     text-align: center;
     color: #fff;
     margin-bottom: 100px;
+
+    & span {
+        color: #D1A954;
+    }
 }
 
 .projects__list {
     display: flex;
     max-width: 1770px;
-    height: 550px;
     margin-left: auto;
-    overflow: auto;
+    overflow-x: scroll;
 }
 
 .projects__item {
@@ -35,7 +40,7 @@
     &:hover {
         transform: scaleX(1.02);
         transition: transform 0.4s;
-        position: absolute;
+        position: inherit;
         z-index: 2;
     }
 
@@ -100,9 +105,8 @@
 
         &:hover {
             cursor: pointer;
-            //    box-shadow: 1px 5px 15px -21px #D1A954;
             box-shadow: 3px 31px 59px 21px rgba(1, 0, 0, 0.1);
-            transform: scale(1.05);
+            transform: scale(1.02);
         }
     }
 }
