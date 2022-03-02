@@ -7,11 +7,6 @@
 ::-webkit-scrollbar {
     display: none;
 }
-.projects__container {
-    max-width: 1800px;
-    overflow: hidden;
-    margin-left: auto;
-}
 
 .projects__title {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -34,6 +29,7 @@
     max-width: 1770px;
     margin-left: auto;
     overflow-x: scroll;
+    @include reset-list;
 }
 
 .projects__item {
@@ -43,8 +39,9 @@
     position: relative !important;
 
     &:hover {
-        transform: scaleX(1.02);
+        transform: scaleX(1.03);
         transition: transform 0.4s;
+        cursor: pointer;
         position: inherit;
         z-index: 2;
     }

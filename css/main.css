@@ -420,6 +420,12 @@ p {
   padding: 0 15px;
 }
 
+.projects__container {
+  max-width: 1800px;
+  overflow: hidden;
+  margin-left: auto;
+}
+
 .partners {
   padding-top: 150px;
   padding-bottom: 120px;
@@ -474,12 +480,6 @@ p {
   display: none;
 }
 
-.projects__container {
-  max-width: 1800px;
-  overflow: hidden;
-  margin-left: auto;
-}
-
 .projects__title {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
@@ -503,6 +503,9 @@ p {
   max-width: 1770px;
   margin-left: auto;
   overflow-x: scroll;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .projects__item {
@@ -514,12 +517,13 @@ p {
 }
 
 .projects__item:hover {
-  -webkit-transform: scaleX(1.02);
-          transform: scaleX(1.02);
+  -webkit-transform: scaleX(1.03);
+          transform: scaleX(1.03);
   -webkit-transition: -webkit-transform 0.4s;
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
+  cursor: pointer;
   position: inherit;
   z-index: 2;
 }
