@@ -1,11 +1,4 @@
-@font-face {
-    font-family: 'Open Sans Condensed';
-    font-style: normal;
-    font-weight: 700;
-    display: swap;
-    src: url('../fonts/open-sans-condensed-v21-latin-700.woff2') format('woff2'),
-        url('../fonts/open-sans-condensed-v21-latin-700.woff') format('woff');
-}
+
 
 @font-face {
     font-family: 'Open Sans';
@@ -24,6 +17,7 @@
     src: url('../fonts/open-sans-v27-latin-700.woff2') format('woff2'),
         url('../fonts/open-sans-v27-latin-700.woff') format('woff');
 }
+<<<<<<< HEAD
 @font-face {
     font-family: 'Open Sans Condensed';
     font-style: normal;
@@ -32,3 +26,14 @@
     src: url('../fonts/open-sans-condensed-v21-latin-300.woff2') format('woff2'),
          url('../fonts/open-sans-condensed-v21-latin-300.woff') format('woff');
   }
+=======
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/OpenSansCondensed-Light.woff2') format('woff2'),
+        url('../fonts/OpenSansCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+>>>>>>> form
