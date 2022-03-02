@@ -11,7 +11,8 @@
         "../scss/blocks/_blocks.scss",
         "../scss/blocks/_container.scss",
         "../scss/blocks/_projects.scss",
-        "../scss/blocks/_about.scss"
+        "../scss/blocks/_about.scss",
+        "../scss/blocks/_intro.scss"
     ],
     "names": [],
     "file": "main.css"
