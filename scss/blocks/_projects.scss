@@ -13,6 +13,11 @@
 ::-webkit-scrollbar {
     display: none;
 }
+.projects__container {
+    max-width: 1800px;
+    overflow: hidden;
+    margin-left: auto;
+}
 
 .projects__title {
     font-family: 'Open Sans Condensed', sans-serif;
