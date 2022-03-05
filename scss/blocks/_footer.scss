@@ -1,0 +1,21 @@
+
+.footer__content {
+    position: relative;
+    padding: 30px 0;    
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    &::after{
+        position: absolute;
+        content: '';
+        width: 1110px;
+        border: 1px solid #565656;
+        top: 1px;
+    }
+}
+.footer__desc {
+    font-family: $open-sans;
+    font-size: 12px;
+    line-height: 18px;
+    color: #989898;
+}
