@@ -18,7 +18,9 @@
 .contact__div {
     display: flex;
 }
-
+.contact__list {
+    @include reset-list;
+}
 .contact__item {
     margin-bottom: 25px;
     &:last-child {
